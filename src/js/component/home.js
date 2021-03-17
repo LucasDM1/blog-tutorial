@@ -1,12 +1,14 @@
 import React from "react";
-//import { Navbar } from "./navbar";
+import { Navbar } from "./navbar";
+import { Homepage } from "./homepage";
 
 //create your first component
-export function App() {
+export function Home() {
 	return (
 		<div className="App">
-			<div className="container-fluid">
-				<h1>hello</h1>
+			<Navbar />
+			<div className="content">
+				<Homepage />
 			</div>
 		</div>
 	);
